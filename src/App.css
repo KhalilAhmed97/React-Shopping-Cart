@@ -1,0 +1,22 @@
+.dark{
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: #111b20;
+    color: white;
+}
+.light{
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: white;
+}
+
+.darkButton{
+    color: white;
+    cursor: pointer;
+
+}
+.lightButton{
+    color: #111b20;
+    cursor: pointer;
+
+}

@@ -1,0 +1,29 @@
+
+.item_container{
+    display: grid;
+    grid-template-columns: 10% 50% 20% 10% 10%;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.quantity{
+    display: flex;
+    justify-self: center;
+}
+.quantity > input{
+    margin-inline: 10px;
+    width: 40px;
+    text-align: center;
+}
+.display{
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    justify-self: center;
+}
+.cross_icon{
+    justify-self: center;
+    cursor: pointer;
+}

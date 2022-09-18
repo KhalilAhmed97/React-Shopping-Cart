@@ -1,0 +1,44 @@
+header{
+    padding: 20px;
+    display: flex;
+}
+.inside_header{
+    padding-inline: 20px;
+    padding-bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid grey;
+}
+.left{
+    display: flex;
+}
+.left > h5{
+    padding-left: 10px;
+    padding-top: 3px;
+    color: grey;
+}
+.icon{
+    cursor:pointer;
+}
+
+.icon p{
+    position: absolute;
+    width:20px;
+    height: 20px;
+    background-color: rgb(45, 140, 195);
+    color: white;
+    border-radius: 50%;
+    text-align:center;
+    font-size: small;
+    top: 55px;
+    right: 45px;
+}
+.heading{
+    margin: 20px;
+}
+.heading > p{
+    margin-top: 10px;
+    font-size:15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
